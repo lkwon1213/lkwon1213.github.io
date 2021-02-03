@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <title>Dahee Kwon</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+    </head>
+    <body>
+        <input type="checkbox" id="main-nav-toggle" />
+        <nav class="main-nav">
+            <ul class="main-nav__fallback">
+                <li>
+                    <a href="./index.html" class="nav__link" data-link>Home</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav__link" data-link>About</a>
+                </li>
+                <li>
+                    <a href="./work.html" class="nav__link" data-link>Work</a>
+                </li>
+                <li>
+                    <a href="https://columbiaseniorthesis.show/Dahee-Kwon-1" target="_blank" rel="noopener noreferrer" class="nav__link" data-link>Art</a>
+                </li>
+            </ul>
+            <div class="menu-span-close-wrapper">
+                <span class="menu-span-close">
+                    <label class="main-nav__close nav-toggle" for="main-nav-toggle" tabindex="0" aria-label="Close menu"></label>
+                </span>
+            </div>
+        </nav>
+        <div class="page home">
+            <div class="header-wrapper">
+                <div class="header">
+                    <span class="menu-span">
+                        <label class="main-nav-open nav-toggle" for="main-nav-toggle" tabindex="0" aria-label="Menu"></label>
+                    </span>     
+                </div>
+            </div>  
+            <div class="home-main">
+                <span class="circle"></span>
+                <div class="home-main-text">
+                    <h2>Hi, my name is —</h2>
+                    <h1>Dahee Kwon</h1>
+                    <h2>I am a software engineer</h2>
+                    <h2>currently working at Oracle NetSuite.</h2>
+                </div>
+            </div>
+            <div class="home-main-contact"> 
+                <a href="mailto:lkwon1213@gmail.com" target="_blank" rel="noopener noreferrer"><div class="circular">Contact Me * Contact Me * </div></a>
+            </div>
+            <div class="home-footer">
+                <a href="./about.html">About</a>
+                <span class="home-footer-line"></span>
+                <a href="./work.html">Work</a>
+                <span class="home-footer-line"></span>
+                <a href="https://columbiaseniorthesis.show/Dahee-Kwon-1" target="_blank" rel="noopener noreferrer">Art</a>
+            </div>
+        </div>
+        <div id="mouse-circle"></div>
+        <script type="module" src="app.js"></script>
+    </body>
+</html>
